@@ -1,13 +1,20 @@
 # Business Drivers (BD)
 
-_List of business goals for system’s creation or modification. Presented not in importance order_
+_List of business goals for system’s creation or modification. Presented not in importance order_ (* are they drivers or goals? Going to assume goals.)
 
-1. System support and engage ocassional users to make a purchase to increase users base. Converting Ocassional users to Known users, and Known users to Subscribers .
-2. System provide rich options for engaging known users and subscribers by different kinds of loyality programs. New options are easily added in order to increase user satisfaction and a chance of recomendation. 
+1. System supports and engages ocassional users to make a purchase to increase users base. Converting Ocassional users to Known users, and Known users to Subscribers.
+2. System provides rich options for engaging known users and subscribers by different kinds of loyality programs. New options are easily added in order to increase user satisfaction and a chance of recomendation. 
 3. System provides information about consumed meals and on-demand requests to support Ghost Kitchen management. 
 4. System should be easy to use for inexperiencied users to increase user base. 
 5. Sustainable usage of service. 
 6. Involve other specialist in health area to increase userbase.
+7. Grow the number of outlets to provide healthy meals to more potential customers.
+8. Support multiple vendors.
+9. Harvest data to provide personalized recommendations based on users health goals, purchase history, and item ratings.
+10. Make health and wellness radically affordable and accessible.
+11. Become the dominant meal provider for the customers in order to let them optimize the benefits of their health gains through our meals.
+12. Provide coupon and pricing strategies to engage more potential customers.
+
 
 # Significant Architectural Requirements (SAR)
 List of architecture driving requirements (major functional, quality attribute, and life-cycle requirements)
@@ -30,6 +37,7 @@ List of architecture driving requirements (major functional, quality attribute, 
 ## 1. System support cash and electronical payments
 
 1. Cash payments supported by _PoS Admin_ and dedicated application for _Ocassional users_ 
+AG: 
 2. Users can add diffent payments methods to the App.
 3. New payment method is easy to add with a month for a new areas. 
 4. User can spend virtual funds (coupons and discounts) for payments.
@@ -78,4 +86,4 @@ List of architecture driving requirements (major functional, quality attribute, 
 ## 9. Maximizing guarantee of a meal picking up by user
 
 1. User can use registered card(s) to authorize pickup process. 
-2. Pregenerated codes for pickup allows impersonated meal collecting. (ARD 002)
+2. Pregenerated codes for pickup allows impersonated meal collecting. 
