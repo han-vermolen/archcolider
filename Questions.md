@@ -17,9 +17,17 @@
 2. What is the system behaviour if the catalog of meals become stale and a user ordered out of stock for a particular fridge meal?  
 3. What is the time frame for the "on-demand" ordering? We think that it is a legal case when the catalog shows a meal that can be cooked, but for now out of stock. And user can order it for delivery. For instance: if I order a meal at the morning, can I get it during a lunch? Or all on-demand orders can be executed only at the next day? 
 
+## Distribution
+1. Are there (peak) times at which customers want to pick up their food from a fridge? If so, what are those times and is there an identified pattern for them? (ie. 6 pm on monday - thursday but 7:30 pm on weekend days or are there peaks on the weekend and slower times during the week?)
+2. Can the above question also be answered for the ghost kitchens? Are there peak times for them? Can you elaborate a bit on the subject.
+3. How does the ghost kitchen currently optimize their work for distribution? (ie. pre-cook for 3 days, cook on demand?)
+
+
+
 ## General clarification 
 
 1. We had a feeling that following requirements out of scope of the Ordering system (it even sound like an environment description): 
 - Must integrate with 3rd party smart fridges to obtain inventory and purchase activity
 - Smart Fridges Produce item inventory levels and purchases. The smart fridges have a cloud based management system that handles communication with the Smart Fridge so obtaining this data would be through an API.
 Because during the introductionary session, it was mentioned that smart-fridge system totaly independent of the required one and already established. So the smart-fridges system provide API for all of them. Could you please clarify it? Do we right or there some other intentions behind those sentences? 
+
